@@ -60,7 +60,7 @@ function setTotalPrice(proPrice) {
         purchaseBtn.classList.add('bg-color-pink');
     }
 
-    if (totalPrice > 200) {
+    if (totalPrice >= 200) {
         let applybtn = document.getElementById('apply-btn');
         applybtn.removeAttribute('disabled');
     }
